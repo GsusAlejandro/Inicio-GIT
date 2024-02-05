@@ -23,3 +23,6 @@ Tercer parrafo de prueba
 - **git merge _rama_**: Unir ramas(fast-forward)
 - ***.log:** En el archivo ignore se pone para que se ignoren todos los archivos de ese tipo
 - **git clone _url.git_** : Para clonar repositorios
+- **git log** : Para mostrar el historial de commits o cambios con sus ids
+- **git log --oneline** : mostrar los commits en una sola linea
+- **git commit --amend --no-edit** : Para hacer un ligero cambio al último commit sin hacer otro(incluir el add .)
