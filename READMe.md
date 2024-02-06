@@ -26,3 +26,5 @@ Tercer parrafo de prueba
 - **git log** : Para mostrar el historial de commits o cambios con sus ids
 - **git log --oneline** : mostrar los commits en una sola linea
 - **git commit --amend --no-edit** : Para hacer un ligero cambio al último commit sin hacer otro(incluir el add .)
+- **git commit --amend -m "new message"** : Para hacer un cambio al ultimo commit y un cambio al comentario
+- **git reset --hard HEAD~1** : Elimina el último commit
