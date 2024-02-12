@@ -29,3 +29,12 @@ Tercer parrafo de prueba
 - **git commit --amend -m "new message"** : Para hacer un cambio al ultimo commit y un cambio al comentario
 - **git reset --hard HEAD~1** : Elimina el último commit
 - **git log > commits.txt** : Para creaar un archivo con el historial de commits
+- **git log --oneline --graph --all** : muestra una grafica conel historial de cambios, ramas y fusiones
+- **git reflog** : Muestra todo el historial, incluyendo cambios, elminaciones, fusiones
+- **git diff** : Muesta las diferencias entre el directorio de trabajo y el staging
+- **git status** : Nos muestra el listado de archivos nuevos 
+- **git reset --mixed** : Borra el head y staging regraasando al  modificado
+- **git reste --hard** : Borra todo: head, stagin y el modificado o working directory
+- **git reset id-commit** : Deshace todos los cambios despues del commit indicad, preservando los cambios localmente
+- **git reset --hard id-commit** : Desecha todo el historial y regresa al commit especificado
+
