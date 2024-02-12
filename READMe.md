@@ -28,3 +28,4 @@ Tercer parrafo de prueba
 - **git commit --amend --no-edit** : Para hacer un ligero cambio al último commit sin hacer otro(incluir el add .)
 - **git commit --amend -m "new message"** : Para hacer un cambio al ultimo commit y un cambio al comentario
 - **git reset --hard HEAD~1** : Elimina el último commit
+- **git log > commits.txt** : Para creaar un archivo con el historial de commits
