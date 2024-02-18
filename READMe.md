@@ -37,4 +37,6 @@ Tercer parrafo de prueba
 - **git reste --hard** : Borra todo: head, stagin y el modificado o working directory
 - **git reset id-commit** : Deshace todos los cambios despues del commit indicad, preservando los cambios localmente
 - **git reset --hard id-commit** : Desecha todo el historial y regresa al commit especificado
-- **git tag** : para modificar la version
+- **git tag** : para modificar la version despues del git add ., se pone git add v1.0.3
+
+
