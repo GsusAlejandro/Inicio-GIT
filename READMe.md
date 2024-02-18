@@ -39,4 +39,5 @@ Tercer parrafo de prueba
 - **git reset --hard id-commit** : Desecha todo el historial y regresa al commit especificado
 - **git tag** : para modificar la version despues del git add ., se pone git add v1.0.3
 - **git tag -d "version"**: Elimina la versión indicada
-
+-  **git checkout -b gh-pages**: Crea una nueva rama se cambia a esta para poder tener una pagina
+- **git push origin gh-pages**: Esta se sube por completo
